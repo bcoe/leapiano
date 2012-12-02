@@ -7,7 +7,7 @@ Dependencies
 ============
 
 * The Leap motion's WebSocket server must be running on port 6437.
-* Leapiano uses the (MIDI.js)[https://github.com/mudcube/MIDI.js].
+* Leapiano uses the [MIDI.js](https://github.com/mudcube/MIDI.js).
 
 Copyright
 =========
