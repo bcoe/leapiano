@@ -155,7 +155,7 @@ Leapiano.Piano.prototype.playKey = function(position, yVelocity) {
 
   key.color = 'rgb(250, 250, 250)';
 
-  if (yVelocity > this.minimumVelocity) {
+  if (-1 * yVelocity > this.minimumVelocity) {
     if (now - key.lastPressed > 1.0) {
       this.midi.noteOn(0, key.note, parseInt(yVelocity * 30.0), 0); // plays note once loaded.
       key.lastPressed = now;
